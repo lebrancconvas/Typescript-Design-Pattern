@@ -1,0 +1,14 @@
+{
+    "name": "TS-Design-Pattern",
+    "version": "1.0.0",
+    "main": "app.js",
+    "repository": "https://github.com/lebrancconvas/Typescript-Design-Pattern.git",
+    "author": "lebrancconvas <lebrancconvas@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "run": "node dist/app.js",
+        "test": "echo TEST.",
+        "start": "tsc && node dist/app.js"
+    }
+}

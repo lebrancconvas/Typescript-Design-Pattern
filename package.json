@@ -10,5 +10,8 @@
         "run": "node dist/app.js",
         "test": "echo TEST.",
         "start": "tsc && node dist/app.js"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.21"
     }
 }

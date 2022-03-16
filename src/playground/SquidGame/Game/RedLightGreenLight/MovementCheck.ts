@@ -2,12 +2,12 @@ const PlayerData = require('../../Data/Player/Player.json');
 
 let isPlayerMove = false;
 
-interface Position<T> {
-	x: T;
-	y: T;
+interface Position {
+	x: number;
+	y: number;
 }
 
-let checkMovement = (playertarget: String, playerposition: Position<number>): boolean => {
+let checkMovement = (playertarget: String, playerposition: Position): boolean => {
 	return isPlayerMove;
 }
 
